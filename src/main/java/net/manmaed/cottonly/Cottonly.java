@@ -49,7 +49,8 @@ public class Cottonly {
         CBlocks.BLOCKS.register(eventBus);
         CLoots.LOOT_MODIFIERS.register(eventBus);
         CREATIVE_MODE_TABS.register(eventBus);
-        eventBus.addListener(CottonlyClient::doClientStuff);
 
     }
+
+
 }
