@@ -1,2 +1,5 @@
-// 1.21	2024-07-19T23:29:27.7926239	Tags for minecraft:item mod id cottonly
+// 1.21	2025-06-13T10:35:15.451474	Tags for minecraft:item mod id cottonly
+e3a2958a93e7e21212dbce786385a6560fb4f0dd data/c/tags/item/crops.json
+4e2d548e919ef882b6768cd6d2d894a5f1fdf0a1 data/c/tags/item/seeds.json
 39bd4dba3e8892fcc65b598347841d2843367bd8 data/minecraft/tags/item/dyeable.json
+4e2d548e919ef882b6768cd6d2d894a5f1fdf0a1 data/minecraft/tags/item/villager_plantable_seeds.json
