@@ -23,8 +23,7 @@ public class CottonlyDataGeneration {
         generator.addProvider(true, new CottonRecipeProvider(packOutput, lookupProvider));
         generator.addProvider(true,  new CottonItemModelProvider(packOutput, fileHelper));
         generator.addProvider(true, new CottonBlockModelProvider(packOutput, fileHelper));
-        var cottonBlockTagsProvider = generator.addProvider(true, new CottonBlockTagsProvider(packOutput, lookupProvider, fileHelper));
-        generator.addProvider(true, new CottonItemTagsProvider(packOutput, lookupProvider,  cottonBlockTagsProvider.contentsGetter(), fileHelper));
+        CottonTagsProvider.addTags(event);
         generator.addProvider(true, new CottonGlobalLootModifierProvider(packOutput,  lookupProvider));
         generator.addProvider(true, new CottonLootTables(packOutput, lookupProvider));
         generator.addProvider(true, new CottonBlockStateProvider(packOutput, fileHelper));
