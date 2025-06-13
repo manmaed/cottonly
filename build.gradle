@@ -16,6 +16,10 @@ repositories {
     maven {
         url "https://cursemaven.com"
     }
+    maven {
+        name = "TerraformersMC"
+        url = "https://maven.terraformersmc.com/"
+    }
 }
 
 base {
@@ -51,7 +55,8 @@ sourceSets.main.resources {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-    runtimeOnly "curse.maven:jei-238222:5781938"
+    compileOnly "dev.emi:emi-neoforge:${emi_version}+${minecraft_version}:api"
+    runtimeOnly "dev.emi:emi-neoforge:${emi_version}+${minecraft_version}"
 }
 tasks.withType(ProcessResources).configureEach {
     var replaceProperties = [
