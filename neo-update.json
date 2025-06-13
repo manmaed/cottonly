@@ -1,25 +1,27 @@
 {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/cottonly",
     "1.21.1": {
+      "0.16.6": "Allow Villagers to harvest and plant Cotton",
       "0.16.5": "Added Common Tags to Seeds (c:seeds) and Cotton Balls (c:crops)",
       "0.16.4": "Fixes cotton to string recipe not working in some cases",
       "0.16.3": "Fixes Neos Move to DataMaps for compost",
-      "0.16.1": "Port to 1.20.4 and Neo"
+      "0.16.1": "Port to 1.21 and Neo"
     },
     "1.21": {
+      "0.16.6": "Allow Villagers to harvest and plant Cotton",
       "0.16.5": "Added Common Tags to Seeds (c:seeds) and Cotton Balls (c:crops)",
       "0.16.4": "Fixes cotton to string recipe not working in some cases",
       "0.16.3": "Fixes Neos Move to DataMaps for compost",
-      "0.16.1": "Port to 1.20.4 and Neo"
+      "0.16.1": "Port to 1.21 and Neo"
     },
     "1.20.4": {
       "0.14.1": "Port to 1.20.4 and Neo"
     },
     "promos": {
-      "1.21.1-latest": "0.16.5",
-      "1.21.1-recommended": "0.16.5",
-      "1.21-latest": "0.16.5",
-      "1.21-recommended": "0.16.5",
+      "1.21.1-latest": "0.16.6",
+      "1.21.1-recommended": "0.16.6",
+      "1.21-latest": "0.16.6",
+      "1.21-recommended": "0.16.6",
       "1.20.4-latest": "0.14.1",
       "1.20.4-recommended": "0.14.1"
     }
